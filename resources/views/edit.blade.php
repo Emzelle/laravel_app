@@ -40,6 +40,20 @@
                     <div class="form-text text-danger">{{ $message }}</div>
                 @enderror
             </div>
+
+            <div class="mb-3">
+                <label for="inputsubject" class="form-label"><strong>subject:</strong></label>
+                <input
+                    type="text"
+                    Title="subject"
+                    value="{{ $note->subject }}"
+                    class="form-control @error('subject') is-invalid @enderror"
+                    id="inputsubject"
+                    placeholder="subject">
+                @error('Title')
+                    <div class="form-text text-danger">{{ $message }}</div>
+                @enderror
+            </div>
             <button type="submit" class="btn btn-success"><i class="fa-solid fa-floppy-disk"></i> Update</button>
         </form>
 
