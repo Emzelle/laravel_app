@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('subject');
             $table->text('content');
+            $table->string('subject');
             $table->timestamps();
         });
     }
