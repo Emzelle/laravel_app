@@ -19,8 +19,8 @@
                 <tr>
                     <th width="80px">No</th>
                     <th>Title</th>
-                    <th>content</th>
-                    <th width="250px">Action</th>
+                    <th>Content</th>
+                    <th width="250px">Subject</th>
                 </tr>
             </thead>
 
